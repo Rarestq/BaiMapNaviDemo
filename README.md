@@ -13,8 +13,8 @@
                 <action android:name="com.baidu.location.service_v2.2"></action>
             </intent-filter>
         </service>
-value中的值为自己在百度地图开放平台(http://lbsyun.baidu.com/index.php?title=androidsdk/sdkandev-download)中申请的APPKey
-还要添加相关使用权限，如下所示：
+value中的值为自己在百度地图开放平台(http://lbsyun.baidu.com/index.php?title=androidsdk/sdkandev-download)
+中申请的APPKey，最后需要添加相关使用权限，如下所示：
     <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- 访问网络，网络定位需要上网-->
